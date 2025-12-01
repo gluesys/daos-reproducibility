@@ -88,7 +88,7 @@ currently running DAOS version 2.7(under dev) on Rocky Linux 9.6:
 ## High-Performance Fabric
 
 The HPC Fabric is a fully non-blocking HDR InfiniBand network, using
-[Mellanox ????]() switch.
+[Mellanox QM8790](https://docs.nvidia.com/networking/display/qm87xx/introduction) switch.
 
 Both servers and clients use two single-port Mellanox ConnectX-6 HDR adapters
 (one per CPU socket). On the servers, each port is managed by a dedicated
@@ -141,5 +141,5 @@ or Erasure Coding to maximize the achievable performance.
 
 ## IO500 List Entries
 
-- MantaStorage: SC25 Research List #??, submission 770
-- MantaStorage-EC: SC25 Production List #??, submission 776
+- MantaStorage: SC25 Research List #85, submission 770
+- MantaStorage-EC: SC25 Production List #113, submission 776
