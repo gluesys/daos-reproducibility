@@ -13,7 +13,7 @@ page on IO500.
 Answers to the _IO500.org Reproducibility Questionnaire_ are provided in
 the
 [io500-reproducibility.tta-mantastorage.md](io500-reproducibility.tta-mantastorage.md)
-document. Note that this doccument covers two different _user-selectable_ data protection
+document. Note that this document covers two different _user-selectable_ data protection
 schemes to address the different requirements of the _Production_ and _Research_ list.
 
 ## Institution
@@ -120,7 +120,7 @@ container was created using the [create-cont.sh](servers/create-cont.sh) script.
 
 ### DAOS Client environment
 
-Our IO500-SC25 benchmark runs were performend in the deployment stage, before
+Our IO500-SC25 benchmark runs were performed in the deployment stage, before
 user operation started. For this reason the runs have been performed with
 interactive `mpirun` invocations, using a hostlist to specify client nodes as
 described above.
@@ -133,7 +133,7 @@ no single point of failure. So the
 has been used for Production runs. It protects against single faults by using
 2-Way replication for metadata and IOR-Hard, and 2+1P Erasure Coding for IOR-Easy.
 
-Submissions to the IO500 Research lists are using an itentical storage system
+Submissions to the IO500 Research lists are using an identical storage system
 setup, but since the "no single point of failure" requirement does not apply
 to the Research list the
 [config-all-dfs-rf0-tmpl.ini](config-all-dfs-rf0-tmpl.ini) configuration file
